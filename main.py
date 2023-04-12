@@ -139,19 +139,17 @@ def get_photo_name(image_path, collection_id, dynamodb_table_name):
     return response["Item"]["photo_name"]
 
 # 1.  create DyanamoDb table
-# create_dynamodb_table('demo_photo_rekognition')
+create_dynamodb_table('demo_photo_rekognition')
 # 2. create a collection
-# create_collection('demo-collection')
+create_collection('demo-collection')
 # 3. upload to images to collection
 upload_to_aws('data_set', 'demo_photo_rekognition', 'demo-collection')
 # 4. search by image naive
 get_photo_name('test/dan_test.jpeg', 'demo-collection', 'demo_photo_rekognition')
 # 5 false positive
 get_photo_name('test/omer.jpg', 'demo-collection', 'demo_photo_rekognition')
-# 6 dan in a group
-# get_photo_name('test/dan_in_m2v.jpeg', 'demo-collection', 'demo_photo_rekognition')
 
-# print(upload_to_collection('demo-collection', 'dan.jpeg'))
+
 
 
 #
