@@ -1,0 +1,92 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Compiled source files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Packages and package metadata
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.egg-info/
+*.tar.gz
+*.whl
+
+# Virtual environments
+venv/
+*.virtualenv
+.virtualenvs/
+env/
+ENV/
+
+# Configuration files
+*.ini
+*.conf
+*.cfg
+
+# IDE and editor files
+*.iml
+*.ipr
+*.iws
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+*.swn
+*.suo
+*.user
+.vs/
+.vscode/
+
+# Cache and temporary files
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.cache
+*.hypothesis/
+*.pytest_cache/
+__pycache__/
+*.pyc
+
+# Node.js dependencies
+node_modules/
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo
+*.tmp
+*.orig
+*.rej
+*.swo
+*.log
+*.retry
+*~
